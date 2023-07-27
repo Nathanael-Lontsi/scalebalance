@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  font-family: Podkova, serif;
+}
+
+html {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid #a9a9a9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.balance {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 500px;
+}
+
+.icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: -2px;
+}
+
+.input-field {
+  align-items: center;
+  border: 2px solid #556b2f;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+}
+
+.section1 {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 15px;
+  height: 35px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.onclick {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+button {
+  background-color: #556b2f;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px #556b2f;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 20px;
+  width: 250px;
+}
+
+.output {
+  align-items: center;
+  border: 2px solid #f5fffa;
+  display: flex;
+  font-family: Ubuntu, sans-serif;
+  flex-direction: column;
+  gap: 20px;
+  height: 150px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.scale {
+  color: #556b2f;
+  font-family: ubuntu, sans-serif;
+  font-size: 30px;
+}
+
+/* @media screen and (max-width: 1024px) {
+  .scale {
+    width: 85%;
+  }
+
+  .btn2 {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  input {
+    font-size: 15px;
+  }
+
+  .input-field {
+    gap: 10px;
+  }
+
+  .btn1 {
+    font-size: 15px;
+  }
+
+  .btn2 {
+    font-size: 15px;
+    margin-left: 15%;
+  }
+
+  .scale {
+    font-size: 30px;
+    width: 88%;
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  input {
+    font-size: 10px;
+  }
+
+  .btn1 {
+    font-size: 10px;
+  }
+
+  .btn2 {
+    font-size: 10px;
+    margin-left: 3%;
+  }
+
+  .scale {
+    font-size: 15px;
+    width: 88%;
+    margin-left: 15px;
+  }
+} */
