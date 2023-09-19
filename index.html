@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <title>Balance</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="balance">
+        <div class="icon">
+          <span
+            class="material-symbols-outlined"
+            style="font-size: 80px; color: #556b2f"
+          >
+            balance
+          </span>
+        </div>
+        <h1>Scale Balance</h1>
+        <div class="input-field">
+          <h2 style="margin: -2px 0 -1px 0">Place values here</h2>
+          <div class="section1">
+            <input type="number" placeholder="Enter a weight1" id="input1" />
+            <input type="number" placeholder="Enter a weight2" id="input2" />
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Enter 4 digits e.g 1,2,3,4"
+              id="input3"
+              style="outline: none"
+            />
+          </div>
+        </div>
+        <div class="onclick">
+          <button class="btn1">Balance weight</button>
+        </div>
+        <div class="output">
+          <h3>Results</h3>
+          <div class="scale"></div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/script/script.js"></script>
+  </body>
 </html>
